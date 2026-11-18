@@ -258,17 +258,6 @@ page = f'''<!DOCTYPE html>
   <h2>Каждая вещь подробно</h2>
   <div class="cards">{"".join(card(it, i) for i, it in enumerate(ITEMS))}</div>
 </section>
-
-<footer class="sec foot">
-  <h2>Источники</h2>
-  <ul>
-    <li>Таблицы размеров Nike: <a href="https://www.nike.com/gb/size-fit/mens-tops-alpha" target="_blank" rel="noopener">Men's tops</a>, <a href="https://www.nike.com/gb/size-fit/mens-bottoms-alpha" target="_blank" rel="noopener">Men's bottoms</a>.</li>
-    <li>Посадка, состав, рост моделей, шаговый шов 12,5 см — официальные карточки nike.com (ссылки «Характеристики» в каждой карточке).</li>
-    <li>Совет «на размер больше» для поло — карточка товара на nike.com.br (блок «Acerte o tamanho»).</li>
-    <li>Фото товаров — Centauro, Velocità, ATPSHOP, Nike.</li>
-    <li>Стикер: «<a href="https://commons.wikimedia.org/wiki/File:Cat_stretching_out.jpg" target="_blank" rel="noopener">Cat stretching out</a>», Clavecin, Wikimedia Commons, public domain.</li>
-  </ul>
-</footer>
 </main>
 
 <div class="lb" id="lb" hidden>
